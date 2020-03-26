@@ -1,0 +1,30 @@
+{
+  "name": "performance-management-system",
+  "version": "1.0.0",
+  "description": "A summer internship project:- Performance Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekmurali2k/Performance-Management-System.git"
+  },
+  "author": "Vivek Murali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekmurali2k/Performance-Management-System/issues"
+  },
+  "homepage": "https://github.com/vivekmurali2k/Performance-Management-System#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
